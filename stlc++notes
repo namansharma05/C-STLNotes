@@ -1,0 +1,144 @@
+#include<bits/stdc++.h>
+using namespace std;
+// STL - standard template liberary
+
+// algorithms
+// containers
+// functions
+
+
+void solve(){
+	
+	        //pairs
+
+	// pair<int,int> name;
+	// name = {1,2};
+	// cout << "first element " << name.first << endl;
+	// cout << "second element " << name.second;
+	
+	        //array
+
+	// array<int,10> name;
+	//memeset(name,name+10,1);
+	// int arr[10];
+	
+	        //vectors
+
+	// vector<int> name(5,1);
+	// int n = name.size();
+	// name.push_back(10);
+	// for(int i=0;i<name.size();i++){
+	// 	cout << name[i] << " ";
+	// }
+	// name[0]
+	// cout << endl;
+	// name.pop_back();
+	// for(int i=0;i<name.size();i++){
+	// 	cout << name[i] << " ";
+	// }
+	// cout << endl;
+	// vector<pair<int,int>> name(5);
+	// name[0].first = 10;
+	// name[0].second = 20;
+	// for(int i=0;i<name.size();i++){
+	// 	cout << name[i].first << " " << name[i].second << endl;
+	// }
+
+	        //stack
+
+	// stack<int> st;
+	// LIFO 
+	// st.push(1); 
+	// st.push(2);
+	// st.push(3);
+	// st.push(4);
+	// while(!st.empty()){
+	// 	cout << st.top() << endl;
+	// 	st.pop();
+	// }
+	// cout << st.size() << endl;
+
+	        //queue
+
+	// queue<int> que;
+	// FIFO
+	// que.push(1);
+	// que.push(2);
+	// que.push(3);
+	// que.push(4);
+	// cout << que.size() << endl;
+	// while(!que.empty()){
+	// 	cout << que.front() << endl;
+	// 	cout << que.back() << endl;
+	// 	que.pop();
+	// }
+	// cout << que.size() << endl;
+
+        //set
+	// set<int> st;
+	// sorted(increasing)
+	// unique
+	// st.insert(10); o(log n)
+	// st.insert(20);
+	// st.insert(10);
+	// st.find(10);
+	// st.erase(10);
+	// cout << st.count(11);
+
+
+	// multiset<int> st;
+	//sorted magar unique
+	// duplicate values aa sakti hai
+	// st.insert(10);
+	// st.insert(20);
+	// st.insert(10);
+	
+	// cout << st.count(10) << endl;
+
+	// unordered_set<int> st;
+	// st.insert(10); 
+	// st.insert(20);
+	// st.insert(10);
+	
+          //map
+	//  key value 
+	// map<int,int> mp;
+	// mp[1] = 10;
+	// mp[2] = 20;
+	// mp[5] = 50;
+	// mp[3] = 30;
+	// cout << mp[1] << endl;
+	// iterator - begin(), end()
+	// auto
+	// for(auto it: mp){
+	// 	cout << it.first << " " << it.second << endl;
+	// }
+
+	// multimap<int,int>
+
+	// unordered_map<int,int>
+
+	// vector<int> name = {10,1 ,100,50,2,8};
+
+	// sort(name.begin(),name.end(),greater<int>());
+	// for(auto it: name){
+	// 	cout << it << " ";
+	// }
+	// cout << endl;
+
+	// auto maxele = *max_element(name.begin(),name.end());
+	// cout << maxele << endl;
+
+	// auto minele = *min_element(name.begin(),name.end());
+	// cout << minele << endl;
+
+}
+
+int main(){
+	int t = 1;
+	// cin >> t;
+	while(t--){
+		solve();
+	}
+	return 0;
+}
